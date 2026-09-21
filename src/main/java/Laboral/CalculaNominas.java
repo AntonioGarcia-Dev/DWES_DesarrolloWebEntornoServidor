@@ -2,6 +2,10 @@ package Laboral;
 
 import Excepciones.DatosNoCorrectosException;
 
+/**
+ * Se maneja el control de Excepciones mediante un bloque try Catch y se ejecuta el programa satisfactoriamente.
+ */
+
 public class CalculaNominas {
     public static void main(String[] args) {
         try {
@@ -31,3 +35,5 @@ public class CalculaNominas {
         System.out.println("Sueldo: " + Nomina.sueldo(e2) + "\n");
     }
 }
+
+

@@ -6,6 +6,17 @@ public class Empleado extends Persona{
     private int categoria;
     public int anyos;
 
+    /**
+     * @param nombre
+     * @param dni
+     * @param sexo
+     * @param categoria
+     * @param anyos
+     * @throws DatosNoCorrectosException
+     *
+     * Se crean los constructores correspondientes, setter, getters, el incrementador de Años y el Imprime.
+     */
+
     public Empleado(String nombre, String dni, char sexo, int categoria, int anyos) throws DatosNoCorrectosException{
         super(nombre, dni, sexo);
         if (categoria < 0 || categoria > 10 || anyos < 0) {
