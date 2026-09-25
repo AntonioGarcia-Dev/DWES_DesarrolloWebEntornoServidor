@@ -1,5 +1,9 @@
 package Laboral;
 
+/**
+ * Se establece la clase principal persona de la que extiende la clase Empleado.
+ */
+
 public class Persona {
     public String nombre;
     public String dni;
