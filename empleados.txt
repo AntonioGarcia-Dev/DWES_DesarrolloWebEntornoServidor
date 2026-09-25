@@ -1,0 +1,5 @@
+11111111C;Alan Turing;M;9;5
+12345678A;Linus Torvalds;M;5;10
+32000031R;Ada Lovelace;F;9;2
+32000032G;James Cosling;M;5;4
+87654321B;Margaret Hamilton;F;7;15

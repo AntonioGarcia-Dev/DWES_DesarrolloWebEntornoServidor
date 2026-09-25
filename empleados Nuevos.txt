@@ -1,0 +1,2 @@
+12345678A;Linus Torvalds;M;5;10
+87654321B;Margaret Hamilton;F;7;15
