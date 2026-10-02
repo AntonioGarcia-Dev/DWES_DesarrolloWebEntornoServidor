@@ -14,6 +14,7 @@ public class BaseDatosUtils {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 
+
     // Lee la tabla Empleados y devuelve la lista (Apartado 2)
     public static List<Empleado> leerEmpleadosBD() {
         List<Empleado> lista = new ArrayList<>();
