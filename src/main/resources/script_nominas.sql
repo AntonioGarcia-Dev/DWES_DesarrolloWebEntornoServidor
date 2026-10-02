@@ -20,6 +20,8 @@ CREATE DATABASE IF NOT EXISTS `gestion_nominas` /*!40100 DEFAULT CHARACTER SET u
 USE `gestion_nominas`;
 
 -- Volcando estructura para tabla gestion_nominas.empleados
+
+    --
 CREATE TABLE IF NOT EXISTS `empleados` (
   `dni` varchar(9) NOT NULL,
   `nombre` varchar(50) NOT NULL,
